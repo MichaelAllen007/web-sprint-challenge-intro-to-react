@@ -13,7 +13,7 @@ const App = () => {
   const [characterInfo, setCharacterInfo] = useState([])
 
 const getCharacters = () => {
-  axios.get('https://swapi.dev/api/people')
+  axios.get('https://swapi.dev/api/people/?')
   .then(response => {setCharacterInfo(response.data)})
 }
 
