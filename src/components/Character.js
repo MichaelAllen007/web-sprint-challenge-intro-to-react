@@ -11,6 +11,7 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 border: 1px solid black;
 background-color: white;
+flex-direction: column;
 `
 
 const Character = (props) => {
