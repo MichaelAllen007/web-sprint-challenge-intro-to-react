@@ -18,7 +18,7 @@ const Character = (props) => {
     const {character} = props
     return (
         <StyledWars>
-            <h3>Name: {character.name}</h3>
+            <h3>{character.name}</h3>
             <p>DOB: {character.birth_year}</p>
             <p>Gender: {character.gender}</p>
             <p>Height: {character.height}</p>
